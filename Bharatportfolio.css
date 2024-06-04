@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Roboto";
+    border-width: 2px;
+    border-color: #4b6cc1;
+    border-style: solid;
+
+}
+
+.banner-section-bg-container {
+    background-color: #191a1d;
+    height: 40vh;
+}
+
+.banner-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.banner-heading {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.image {
+    width: 480px;
+    margin-bottom: 10px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #cced00;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+#nav1 {
+    color: #ffffff;
+    font-family: "roboto";
+
+}
+
+#nav2 {
+    color: #ffffff;
+    font-family: "roboto";
+
+}
+
+#nav3 {
+    color: #ffffff;
+    font-family: "roboto";
+
+}
+
+#nav4 {
+    color: #ffffff;
+    font-family: "roboto";
+
+}
+
+#nav5 {
+    color: #ffffff;
+    font-family: "roboto";
+
+}
+
+.name {
+    color:  #cced00;
+}
+
+.about-me {
+    background-color: #323f4b;
+}
+
+.about-me-image {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me-heading {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.about-me-section-decription {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.skills {
+    background-color: #1f2933;
+}
+
+.skills-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-card-image {
+
+    width: 64px;
+    height: 64px;
+}
+
+.skills-card-title {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.projects-section {
+    background-color: #3e4c59;
+}
+
+.projects-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projects-section-heading {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.projects-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+}
+
+.project-card-image {
+    width: 50px;
+}
+
+.projects-card-sub-title {
+    color: #9aa5b1;
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.project-card-title {
+    color: white;
+    font-family: "roboto";
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.project-card-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.projects-card-link {
+    color: #cced00;
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#portfolio {
+    padding: 50px 0;
+    background-color: #191a1d;
+    height: auto;
+    background-size: cover;
+}
+
+.bg {
+    background-color: #191a1d;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+
+.s1 {
+    color: black;
+}
+
+.s2 {
+    color: black;
+}
+
+.s3 {
+    color: black;
+}
+
+
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), #cced00);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.service-head {
+    color: #cced00;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #cced00;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.p1 {
+    color: white;
+    font-family: "roboto";
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+.bg-color {
+    background-color: #001c32;
+    height: auto;
+}
+
+.image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.main-heading {
+    color: #cced00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.paragraph {
+    color: #9aa5b1;
+    font-size: 20px;
+}
